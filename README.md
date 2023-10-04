@@ -1,6 +1,3 @@
-<h1 align="center">
-    <img alt="Bolt Weather Banner" title="Bolt Weather" src="docs/header.png" width="900px" />
-</h1>
 
 ## <img src="docs/arrow.svg" width="20px">&nbsp; About
 
@@ -48,4 +45,4 @@ OPENWEATHERMAP_API_KEY="YOUR_OPENWEATHERMAP_API_KEY"
 ##
 <br />
 
-Designed and built by [Tom Watts](https://bio.link/tomw)
+Designed and built by Tom Watts
