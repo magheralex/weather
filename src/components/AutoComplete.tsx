@@ -19,11 +19,11 @@ export default function AutoComplete() {
   );
   const defaultOptions: OptionT[] = [
     { label: 'București', id: 'bucharest' },
-    { label: 'Sydney NSW, Australia', id: 'sydney' },
-    { label: 'Brisbane QLD, Australia', id: 'brisbane' },
-    { label: 'Melbourne VIC, Australia', id: 'melbourne' },
-    { label: 'Perth WA, Australia', id: 'perth' },
-    { label: 'Adelaide SA, Australia', id: 'adelaide' },
+    { label: 'Iași', id: 'iasi' },
+    { label: 'Cluj-Napoca', id: 'cluj' },
+    { label: 'Brașov', id: 'brasov' },
+    { label: 'Constanța', id: 'constanta' },
+    { label: 'Sibiu', id: 'sibiu' },
   ];
   const asyncOptions: OptionT[] = locations?.length
     ? locations.map((location, index) => ({
