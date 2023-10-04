@@ -18,7 +18,7 @@ export default function AutoComplete() {
     (state) => state.setCurrentLocation
   );
   const defaultOptions: OptionT[] = [
-    { label: 'Canberra ACT, Australia', id: 'canberra' },
+    { label: 'București', id: 'bucharest' },
     { label: 'Sydney NSW, Australia', id: 'sydney' },
     { label: 'Brisbane QLD, Australia', id: 'brisbane' },
     { label: 'Melbourne VIC, Australia', id: 'melbourne' },
