@@ -28,11 +28,19 @@ export default function Footer() {
 
   return (
     <footer className={footer}>
-      Created Alex M. &nbsp;
+      Created by&nbsp;
+      <a
+        href="https://github.com/tomcwatts"
+        rel="author"
+        aria-label="Tom Watts"
+        className={link}
+        target="_blank"
+      >
+        Tom Watts &nbsp;
       </a>
       &#8226; &nbsp;
       <a
-        href="https://github.com/magheralex/weather"
+        href="https://github.com/tomcwatts/bolt-weather"
         rel="author"
         aria-label="Github link"
         className={link}
